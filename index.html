@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeRSeBTsQN-II8WIx7M0iVATTgIhU98rn2NiJqnnCtnwneqaQ/formResponse" method="post">
+        <div class="form-element">
+            <span>Email address</span>
+            <input type="email" name="entry.1463945768" required placeholder="Email">
+        </div>
+
+        <div class="form-element">
+            <span>Name</span>
+            <input type="text" name="entry.401345704" required placeholder="Name">
+        </div>
+        <div class="form-element radio-buttons">
+            <span>How's this form looking? </span>
+            <label for="Awesome">
+                <input type="radio"
+                name="entry.432689390"
+                id="Awesome"
+                value="Awesome"/>
+                <span>Awesome</span>
+            </label>
+            <label for="Average">
+                <input type="radio"
+                name="entry.432689390"
+                id="Average"
+                value="Average"
+                required />
+                <span>Average</span>
+            </label>
+        </div>
+        <div class="form-element">
+            <span>Comment</span>
+            <textarea name="entry.1889249561" required id="" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
